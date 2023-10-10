@@ -1,10 +1,9 @@
 class Hello():
     
     def __init__(self):
-        self.test="test"
+        self.test="testing"
     
-    def testee(self):
+    def test_hello(self):
         print("Hi!")
         zzz=f"{self.test}, Hello World"
         return zzz
-    
